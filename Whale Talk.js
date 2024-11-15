@@ -7,15 +7,16 @@ for (let i = 0; i < input.length; i++) {
       resultArray.push(input[i]);
   }
   for (let j = 0; j < vowels.length;j++) {
-   // console.log(vowels[j]);
-   // console.log(j);
+JavaScript
    if (input[i] === vowels[j]) {
       resultArray.push(input[i]);
-      //console.log(resultArray);
    }
   }
- // console.log(input[i]);
- // console.log(i);
+   if (input[i] === vowels[j]) {
+      resultArray.push(input[i]);
+   }
+  }
+main
 }
 
 
