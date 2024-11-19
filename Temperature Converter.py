@@ -3,10 +3,10 @@ import math
 # A constant named kelvin stores the temp in Kelvin
 KELVIN = 293
 
-# A var named celsius stores the temp in Celsius
+# A variable named celsius stores the temp in Celsius
 celsius = kelvin - 273
 
-# a var named fahrenheit stores the temp in Fahrenheit
+# a variable named fahrenheit stores the temp in Fahrenheit
 fahrenheit = celsius * (9/5) + 32;
 
 # Rounds the temp in Fahrenheit down
