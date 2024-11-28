@@ -1,5 +1,3 @@
-JavaScript
-main
 const getRandEvent = () => {
   const random = Math.floor(Math.random() * 3);
   if (random === 0) {
@@ -11,8 +9,6 @@ const getRandEvent = () => {
   }
 };
 
-JavaScript
-main
 const getTrainingDays = event => {
   let days = 0;
   if (event === 'Marathon') {
@@ -26,14 +22,12 @@ const getTrainingDays = event => {
   return days;
 };
 
-JavaScript
 const name = 'Nala';
 
 const logEvent = (name, event) => {
 const name = 'Nala';
 
 const logEvent = (name, event) => {
-main
   console.log(`${name}'s event is: ${event}`);
 };
 
@@ -43,8 +37,6 @@ const logTime = (name, days) => {
 
 const event = getRandEvent();
 const days = getTrainingDays(event);
-JavaScript
-main
 
 logEvent(name, event);
 logTime(name, days);
