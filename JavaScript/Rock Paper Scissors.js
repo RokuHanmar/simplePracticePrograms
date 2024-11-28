@@ -9,7 +9,7 @@ const getUserChoice = userInput => {
   }
 };
 
-function getComputerChoice() {
+const getComputerChoice = () => {
   const computerChoice = Math.floor(Math.random() * 3);
   switch (computerChoice) {
     case 0:
@@ -26,7 +26,7 @@ function getComputerChoice() {
   }
 }
 
-function determineWinner(userChoice, computerChoice) {
+const determineWinner = (userChoice, computerChoice) => {
   userChoice = userChoice.toLowerCase();
   computerChoice = computerChoice.toLowerCase();
   if (userChoice === computerChoice) {
@@ -59,7 +59,7 @@ function determineWinner(userChoice, computerChoice) {
 
 }
 
-function playGame() {
+const playGame = () => {
   const userChoice = getUserChoice("Rock");
   const computerChoice = getComputerChoice();
   console.log(`Player choice: ${userChoice}`);
