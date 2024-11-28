@@ -7,7 +7,6 @@ for (let i = 0; i < input.length; i++) {
       resultArray.push(input[i]);
   }
   for (let j = 0; j < vowels.length;j++) {
-JavaScript
    if (input[i] === vowels[j]) {
       resultArray.push(input[i]);
    }
@@ -16,12 +15,10 @@ JavaScript
       resultArray.push(input[i]);
    }
   }
-main
 }
-
 
 for (k = 0; k < resultArray.length; k++) {
   resultArray[k] = resultArray[k].toUpperCase();
 }
-let resultString = resultArray.join("")
+let resultString = resultArray.join("");
 console.log(resultString);
