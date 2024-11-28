@@ -1,4 +1,4 @@
-function getSleepHours(day) {
+const getSleepHours = (day) => {
 day = day.toLowerCase();
   switch (day) {
     case "monday":
@@ -45,13 +45,13 @@ const getActualSleepHours = () =>
 
 //console.log(getActualSleepHours());
 
-function getIdealSleepHours(idealHours) {
+const getIdealSleepHours = (idealHours) => {
   return idealHours * 7;
 }
 
 //console.log(getIdealSleepHours());
 
-function calculateSleepDebt (ideal) {
+const calculateSleepDebt = (ideal) => {
   var actualSleepHours = getActualSleepHours();
   var idealSleepHours = getIdealSleepHours(ideal);
   if (actualSleepHours === idealSleepHours) {
