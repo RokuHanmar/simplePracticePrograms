@@ -28,4 +28,5 @@ drawCards = (numberToDraw) => {
     // return drawn.sort();
 }
 
-console.log(drawCards(52));
+let cardsToDraw = prompt("How many cards do you want to draw? ");
+console.log(drawCards(cardsToDraw));
