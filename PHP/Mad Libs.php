@@ -12,4 +12,4 @@ And ". $distance_unit. " to go before I ". $verb. ".\n
 
 echo generateStory("man", "run", "red", "metres");
 echo generateStory("woman", "jog", "blue", "furlongs");
-echo generateStory("shild", "swim", "green", "inches");
+echo generateStory("child", "swim", "green", "inches");
