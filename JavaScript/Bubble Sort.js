@@ -1,12 +1,15 @@
 const sort = (array) => {
-    let highest = 0;
     for (i = 0; i < array.length; i++) {
-        for (j = 0; j < array.length; j++) {
+        let swapped = false;
+        for (j = 0; j < (array.length - i - 1); j++) {
             if (array[j] > array[j+1]) {
                 let temp = array[j];
                 array[j] = array[j+1];
                 array[j+1] = temp;
             }
+        }
+        if (!swapped) {
+            break;
         }
     }
 
